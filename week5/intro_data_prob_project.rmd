@@ -32,16 +32,59 @@ load("brfss2013.RData")
 
 ## Part 1: Data
 
+The BRFSS data contains preventive health practices and risk behaviors collected from non-institutionalized adult population, aged 18 years or older via telephonics interviews.
+It is a collabortaive effort between all of the states in the United States (US) and the Centers for Disease Control and Prevention (CDC).
+
+## Sample
+
+1. The states use a standardized core questionnaire, optional modules, and state-added questions.
+2. The survey is conducted using Random Digit Dialing (RDD) techniques on both landlines and cell phones.
+
+## Inference
+
+1. It is an observational study, not experimental, since we are monitoring what occurs, while experiments require the primary explanatory variable in a study be assigned for each subject by the researchers.
+2. It is a randomized study using Stratified Sampling. (Point #2 above)
+
+## Generalizability
+
+1. The study is generalizable to all non-institutionalized adults equal to or above 18 years in the US.
+
+## Causality
+
+1. Observational nature of the study makes the results non-causal, i.e., we can show correlation or association only.
+2. Labeling variables as explanatory and response does not guarantee the relationship between the two is actually causal, even if there is an association identified between the two variables.
+
 
 * * *
 
 ## Part 2: Research questions
 
 **Research quesion 1:**
+How does sleep time affect Physical and Mental Health
+
+physhlth: Number Of Days Physical Health Not Good
+menthlth: Number Of Days Mental Health Not Good
+sleptim1: How Much Time Do You Sleep
+
+Does lower sleep time indicate poor health?
+We will check the correlation between Sleep Time and Health of an individual.
 
 **Research quesion 2:**
+How does Education level associate to Income and general health
+
+educa: Education Level
+income2: Income Level
+genhlth: General Health
+
+We would expect a higher education to yield a higher income, i.e. a positive correlation.
+Are richer people more healthy?
 
 **Research quesion 3:**
+Does better general health correlate to longer Length Of Time Since Last Routine Checkup or 
+
+genhlth: General Health
+checkup1: Length Of Time Since Last Routine Checkup
+
 
 
 * * *
